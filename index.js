@@ -13,17 +13,19 @@
 
 // ## Masa - Punto 1
 // Mark
-var masaMark = 100;
-var alturaMark = 5.9;
+const masaMark = 100;
+const alturaMark = 5.9;
 // Jhon
-var masaJhon = 123;
-var alturaJhon = 6.2;
+const masaJhon = 123;
+const alturaJhon = 6.2;
 
 // ## IMC - Punto 2
-var imcMark = masaMark / (alturaMark * 2);
-var imcJhon = alturaJhon / (alturaJhon * 2);
+const imcMark = masaMark / (alturaMark * 2);
+const imcJhon = alturaJhon / (alturaJhon * 2);
+
+const imc = () => {};
 
 // ## - Punto 3
-var isMarkMayor = imcMark > imcJhon;
+const isMarkMayor = imcMark > imcJhon;
 
 console.log("¿Es el IMC de Mark más alto que el de John? ", isMarkMayor);
